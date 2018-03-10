@@ -1,9 +1,16 @@
 # ESP8266 LoLin V3 NodeMCU
 
-These are my notes for flashing and programming the ESP8266 ESP-12E CH340G WIFI
-Network Development Board. This may work on other ESP8266 based boards as well.
-This is for Linux only and specifically on Ubuntu 16.04 x84-64. I suspect it
-will work on other Linux distributions as well.
+![ESP8266 LoLin V3 NodeMCU](images/esp8266.png)
+These are my notes for flashing and programming the LoLin V3 ESP8266 ESP-12E
+CH340G WIFI Network Development Board. This may work on other ESP8266 based
+boards as well. This is for Linux only and specifically on Ubuntu 16.04 x84-64.
+I suspect it will work on other Linux distributions as well.
+
+## Where to get a ESP8266
+I bought 5 on ebay with shipping they were about $3.59 US each. They come from 
+China at that price, so you are going to wait a few weeks to reach the US.
+Search EBay for "NodeMcu Lua ESP8266 ESP-12E" The ones I bought came with 4 MB
+flash.
 
 ## Verify device shows up
 You want to make sure Ubuntu discovers your device. I just plugged it in
