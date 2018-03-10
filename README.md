@@ -36,7 +36,8 @@ image.
     Running stub...
     Stub running...
     Chip ID: 0x00000000
-    Hard resetting via RTS pin...```
+    Hard resetting via RTS pin...
+    ```
  * Check flash size.
     * `esptool.py flash_id`
     `Detected flash size: 4MB`
