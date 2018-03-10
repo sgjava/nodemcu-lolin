@@ -78,5 +78,25 @@ I'm using ESPlorer, but Arduino IDE could probably be used as well.
     
  ## Run code on ESP
  Let's try a simple function to list WIFI APs.
-
- 
+* Copy code to the editor on the left side of ESPlorer.
+```-- Print AP list that is easier to read
+function listap(t) -- (SSID : Authmode, RSSI, BSSID, Channel)
+    print("\n"..string.format("%32s","SSID").."\tBSSID\t\t\t\t  RSSI\t\tAUTHMODE\tCHANNEL")
+    for ssid,v in pairs(t) do
+        local authmode, rssi, bssid, channel = string.match(v, "([^,]+),([^,]+),([^,]+),([^,]+)")
+        print(string.format("%32s",ssid).."\t"..bssid.."\t  "..rssi.."\t\t"..authmode.."\t\t\t"..channel)
+    end
+end
+```
+* Select all the code in the editor.
+* Click Block button and code should upload to ESP.
+* Clear editor and paste `wifi.sta.getap(listap)`
+* Put cursor on line and click Line button
+```
+> wifi.sta.getap(listap)
+> 
+                            SSID	BSSID				  RSSI		AUTHMODE	CHANNEL
+                            test	e7:98:f1:45:36:b8	  -47		3			3
+                        SXE465TF	21:e7:1a:88:9b:c5	  -65		3			11
+                            xyz1	49:e1:1c:52:65:c6	  -64		4			11
+```
