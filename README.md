@@ -3,7 +3,7 @@
 These are my notes for flashing and programming the ESP8266 ESP-12E CH340G WIFI
 Network Development Board. This may work on other ESP8266 based boards as well.
 This is for Linux only and specifically on Ubuntu 16.04 x84-64. I suspect it
-will work on other Linux distrobusiotns as well.
+will work on other Linux distributions as well.
 
 ## Verify device shows up
 You want to make sure Ubuntu discovers your device. I just plugged it in
@@ -11,7 +11,7 @@ without any additional drivers and it showed up. I used a standard micro USB
 cable to connect to PC. 
 * `lsusb`
 * `Bus 006 Device 002: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter`
-* Device should show up as serial port /dev/ttyUSB0 if somethine doesn't
+* Device should show up as serial port /dev/ttyUSB0 if something doesn't
 already occupy that port.
 
 ## Flash device
