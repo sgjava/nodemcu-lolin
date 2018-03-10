@@ -10,7 +10,7 @@ You want to make sure Ubuntu discovers your device. I just plugged it in
 without any additional drivers and it showed up. I used a standard micro USB
 cable to connect to PC. 
 * `lsusb`
- `Bus 006 Device 002: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter`
+   `Bus 006 Device 002: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter`
 * Device should show up as serial port /dev/ttyUSB0 if somethine doesn't
 already occupy that port.
 
