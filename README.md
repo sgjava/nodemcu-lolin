@@ -9,8 +9,9 @@ I suspect it will work on other Linux distributions as well.
 ## Where to get a ESP8266
 I bought 5 on ebay with shipping they were about $3.59 US each. They come from 
 China at that price, so you are going to wait a few weeks to reach the US.
-Search EBay for "NodeMcu Lua ESP8266 ESP-12E" The ones I bought came with 4 MB
-flash.
+Search EBay for "NodeMcu Lua ESP8266 ESP-12E" The [LoLin](https://www.wemos.cc)
+ones I bought came with 4 MB flash. This particular board is too wide for a
+standard breadboard.
 
 ## Verify device shows up
 You want to make sure Ubuntu discovers your device. I just plugged it in
