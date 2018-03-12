@@ -115,6 +115,5 @@ This uses a [init.lua](https://github.com/sgjava/nodemcu-lolin/blob/master/src/i
 and [blink.lua](https://github.com/sgjava/nodemcu-lolin/blob/master/src/blink.lua)
 script to flash an LED on boot. Change pin number in blink.lua as needed. Just
 create files in ESPlorer (blink.lua first) and click on Run. init.lua sets up
-wifi to use a static address and runs blink.lua. Wifi is set up for future
-usage with remote access without using serial.
+wifi to use a static address and runs blink.lua.
 
