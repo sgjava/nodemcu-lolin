@@ -108,3 +108,8 @@ end
                         SXE465TF	21:e7:1a:88:9b:c5	  -65		3			11
                             xyz1	49:e1:1c:52:65:c6	  -64		4			11
 ```
+
+## Blink LED
+[![LED flash video](images/esp8266_blink.png)](https://youtu.be/BGgfGz3rAVs)
+This uses a init.lua and blink.lua script to flash an LED on boot. Change pin
+number in blink.lua as needed.
