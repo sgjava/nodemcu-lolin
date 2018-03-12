@@ -111,5 +111,7 @@ end
 
 ## Blink LED
 [![LED flash video](images/esp8266_blink.png)](https://youtu.be/BGgfGz3rAVs)
-This uses a init.lua and blink.lua script to flash an LED on boot. Change pin
-number in blink.lua as needed.
+This uses a [init.lua](https://github.com/sgjava/nodemcu-lolin/blob/master/src/init.lua)
+and [blink.lua](https://github.com/sgjava/nodemcu-lolin/blob/master/src/blink.lua)
+script to flash an LED on boot. Change pin number in blink.lua as needed. Just create
+files in ESPlorer (blink.lua first) and click on Run.
