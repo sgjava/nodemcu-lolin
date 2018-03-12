@@ -62,7 +62,7 @@ I'm using ESPlorer, but Arduino IDE could probably be used as well.
 * Run ESPlorer
     * `cd ~/ESPlorer`
     * `java -jar "ESPlorer.jar"`
-    * NodeMCU dev branch uses 115200 baud, bot 9600. It should auto detect the
+    * NodeMCU dev branch uses 115200 baud, not 9600. It should auto detect the
     port.
     * Click on Open, click RTS twice and device should auto detect
     ```ORT OPEN 115200
