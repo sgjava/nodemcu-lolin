@@ -3,7 +3,7 @@
 ![ESP8266 LoLin V3 NodeMCU](images/esp8266.png)
 These are my notes for flashing and programming the LoLin V3 ESP8266 ESP-12E
 CH340G WIFI Network Development Board. This may work on other ESP8266 based
-boards as well. This is for Linux only and specifically on Ubuntu 16.04 x84-64.
+boards as well. This is for Linux only and specifically on Ubuntu 18.04 x84-64.
 I suspect it will work on other Linux distributions as well.
 
 ## Where to get a ESP8266
@@ -11,7 +11,7 @@ I bought 5 on ebay with shipping they were about $3.59 US each. They come from
 China at that price, so you are going to wait a few weeks to reach the US.
 Search EBay for "NodeMcu Lua ESP8266 ESP-12E" The [LoLin](https://www.wemos.cc)
 ones I bought came with 4 MB flash. This particular board is too wide for a
-standard breadboard.
+standard breadboard, but you can attach 2 mini breadboards together.
 
 ## Verify device shows up
 You want to make sure Ubuntu discovers your device. I just plugged it in
@@ -53,6 +53,13 @@ image.
     * `esptool.py erase_flash`
 * Flash image with file you downloaded. Replace file name at end of command.
     * `esptool.py write_flash --flash_mode dio 0x00000 nodemcu-dev-7-modules-2018-03-10-17-09-58-float.bin`
+
+## Stuck in boot loop or unable to flash
+I had an instance where my code was supposed to put the NodeMCU in deep sleep, but crashed instead. Since I used a init.lua I was unable to flash, erase flash, etc. A lot of the solutions you'll find out there do not work. The only thing that worked for me was to:
+* Run wire from RST to GND
+* Plug in NodeMCU to computer
+* Remove wire from GND
+* Flash or erase as normal 
     
 ## Install ESPlorer
 I'm using ESPlorer, but Arduino IDE could probably be used as well.
