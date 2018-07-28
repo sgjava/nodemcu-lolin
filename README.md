@@ -64,7 +64,7 @@ I had an instance where my code was supposed to put the NodeMCU in deep sleep, b
 ## Install ESPlorer
 I'm using ESPlorer, but Arduino IDE could probably be used as well.
 * Install Java 8 JDK if you do not have Java installed.
-* Download latest [ESPlorer.zip](esp8266.ru/esplorer-latest/?f=ESPlorer.zip)
+* Download latest [ESPlorer.zip](http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip)
 * Extract to ~/
 * Run ESPlorer
     * `cd ~/ESPlorer`
