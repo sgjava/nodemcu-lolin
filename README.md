@@ -24,7 +24,8 @@ already occupy that port.
 
 ## Flash device
 This will bring your device up to the latest NodeMCU release. I used the dev
-branch with floating point.
+branch with floating point. I had to use master branch to get u8g module working,
+so build to suite your needs.
 * Use [NodeMCU custom builds](https://nodemcu-build.com) to create a NodeMCU
 image.
     * I selected dev branch and used pre-selected defaults.
