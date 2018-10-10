@@ -4,7 +4,7 @@
 These are my notes for flashing and programming the LoLin V3 ESP8266 ESP-12E
 CH340G WIFI Network Development Board. This may work on other ESP8266 based
 boards as well. This is for Linux only and specifically on Ubuntu 18.04 x84-64.
-I suspect it will work on other Linux distributions as well.
+I suspect it will work on other Linux distributions.
 
 ## Where to get a ESP8266
 I bought 5 on ebay with shipping they were about $3.59 US each. They come from 
